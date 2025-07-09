@@ -129,6 +129,7 @@ main {
 }
 .message-box {
     display: none;
+
     position: absolute;
     top: 60px;
     width: 400px;
@@ -139,6 +140,9 @@ main {
     border-radius: 20px;
     justify-content: space-between;
     z-index: 1;
+}
+.right-logo:hover .message-box{
+    display: block;
 }
 .box-child{
     display: flex;
